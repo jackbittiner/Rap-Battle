@@ -3,7 +3,7 @@ require 'sinatra/base'
 class RapBattle < Sinatra::Base
 
   get '/' do
-    "Hello G"
+    "Testing infrastructure working!"
   end
 
   run! if app_file == $0
